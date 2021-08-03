@@ -4,8 +4,14 @@ function volumeKubus(sisi) {
     return volume;
 }
 
-function jumlahVolume(a,b) {
-    return a + b;
+function jumlahVolume() {
+    let hasil;
+
+    for (let i = 0; i < arguments.length; i++) {
+        hasil += arguments[i];
+    }
+    
+    return hasil;
 }
 
 var nilaiSisiA = parseInt(prompt('Masukan Nilai Sisi Kubus A'));
