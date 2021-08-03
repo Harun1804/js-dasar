@@ -1,10 +1,16 @@
-var angka = parseInt(prompt("Masukan Angka"));
+var item = prompt("Masukan Nama Makanan / Minuman : \n (cth : nasi,daging, susu,hamburger, softdrink)");
 
-switch (angka) {
-  case 1:
-      alert("Anda Memasukan Angka 1");
+switch (item) {
+  case 'nasi':
+    alert('Makanan / minman SEHAT!');
+    break;
+  case 'daging':
+    alert('Makanan / minman SEHAT!');
+    break;
+  case 'susu':
+    alert('Makanan / minman SEHAT!');
     break;
   default:
-      alert("Yang Anda Masukan Tidak Ada");
+    alert('Makanan / minuman TIDAK SEHAT');
     break;
 }
