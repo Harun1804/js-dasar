@@ -1,5 +1,6 @@
 // Membuat Objeck
 // Objeck Literal
+// this pada objeck literal hanya mengembalikan objeck yang bersangkutan
 var mahasiswa = {
     nama : 'Harun Ar - Rasyid',
     umur : 22,
@@ -15,6 +16,7 @@ var mahasiswa = {
 }
 
 // Function Declaration
+// this pada function decleration mengembalikan object global
 function buatObjeckMahasiswa(nama,npm,email,jurusan) {
     var mhs = {};
     mhs.nama = nama;
@@ -28,6 +30,7 @@ function buatObjeckMahasiswa(nama,npm,email,jurusan) {
 var mhs3 = buatObjeckMahasiswa("Fanny","1174070","fanny@gmail.com","D4TI");
 
 // Constructer
+// this pada constructor mengembalikan objeck yang baru dibuat
 function Mahasiswa(nama,npm,email,jurusan) {
     this.nama = nama;
     this.npm = npm;
