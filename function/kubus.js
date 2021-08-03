@@ -12,7 +12,6 @@ function jumlahVolume() {
     return hasil;
 }
 
-var nilaiSisiA = parseInt(prompt('Masukan Nilai Sisi Kubus A'));
-var nilaiSisiB = parseInt(prompt('Masukan Nilai Sisi Kubus B'));
+var nilaiSisi = parseInt(prompt('Masukan Nilai Sisi Kubus'));
 
-console.log(jumlahVolume(volumeKubus(nilaiSisiA),volumeKubus(nilaiSisiB)));
+console.log(jumlahVolume(volumeKubus(nilaiSisi),volumeKubus(nilaiSisi)));
