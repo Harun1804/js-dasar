@@ -2,15 +2,15 @@ var item = prompt("Masukan Nama Makanan / Minuman : \n (cth : nasi,daging, susu,
 
 switch (item) {
   case 'nasi':
-    alert('Makanan / minman SEHAT!');
-    break;
   case 'daging':
-    alert('Makanan / minman SEHAT!');
-    break;
   case 'susu':
     alert('Makanan / minman SEHAT!');
     break;
+  case 'hamburger':
+  case 'softdrink':
+    alert('Makanan / minman SEHAT!');
+    break;
   default:
-    alert('Makanan / minuman TIDAK SEHAT');
+    alert('Yang Anda Masukan Tidak Ada Dalam List');
     break;
 }
