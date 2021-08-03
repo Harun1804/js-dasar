@@ -1,11 +1,9 @@
 function volumeKubus(sisi) {
-    var volume = sisi * sisi * sisi;
-
-    return volume;
+    return sisi * sisi * sisi;
 }
 
 function jumlahVolume() {
-    let hasil;
+    let hasil = 0;
 
     for (let i = 0; i < arguments.length; i++) {
         hasil += arguments[i];
